@@ -1,6 +1,5 @@
 import { createRouter } from "vue-router";
 import { createWebHistory } from "vue-router";
-
 import Login from "../components/Login.vue";
 import Register from "../components/Register.vue";
 
@@ -17,6 +16,5 @@ const router = createRouter({
   routes: routes,
   scrollBehavior(to, from, savedPosition) {},
 });
-
 
 export default router;
