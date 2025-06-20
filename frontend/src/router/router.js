@@ -18,4 +18,5 @@ const router = createRouter({
   scrollBehavior(to, from, savedPosition) {},
 });
 
+
 export default router;
