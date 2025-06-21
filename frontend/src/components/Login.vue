@@ -23,9 +23,10 @@ import axios from 'frontend/node_modules/axios/dist/axios.js';
   </div>
 </template>
 
-<script setup >
+<script setup>
 import { ref } from "vue";
 const user_id = ref("");
+const password = ref("");
 </script>
 
 <style lang="scss" scoped></style>
