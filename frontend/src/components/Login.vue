@@ -18,14 +18,14 @@ import axios from 'frontend/node_modules/axios/dist/axios.js';
       >
         send
       </button>
+      <p>{{ user_id }}</p>
     </div>
   </div>
 </template>
 
-<script setup>
+<script setup >
 import { ref } from "vue";
 const user_id = ref("");
-
 </script>
 
 <style lang="scss" scoped></style>
